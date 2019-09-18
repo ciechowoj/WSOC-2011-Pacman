@@ -1,0 +1,23 @@
+﻿Build started 2/16/2014 12:55:52 PM.
+     1>Project "F:\[08-08-11]\sparrow\appgame\appgame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\[08-08-11]\sparrow\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WINDOWS32 /D DEBUG_CONFIG /Gm /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(84): error C2146: syntax error : missing ';' before identifier 'verticalAlign'
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(84): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(85): error C2146: syntax error : missing ';' before identifier 'horizontalAlign'
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(85): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(86): error C2146: syntax error : missing ';' before identifier 'textDirection'
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(69): error C2065: 'VerticalAlignTop' : undeclared identifier
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(70): error C2065: 'HorizontalAlignLeft' : undeclared identifier
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(71): error C2065: 'TextDirectionRight' : undeclared identifier
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(76): error C2614: 'sparrow::TextBoxDesc' : illegal member initialization: 'verticalAlign' is not a base or member
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(76): error C2614: 'sparrow::TextBoxDesc' : illegal member initialization: 'horizontalAlign' is not a base or member
+     1>f:\[08-08-11]\sparrow\engine\pixmapfont.hpp(76): error C2614: 'sparrow::TextBoxDesc' : illegal member initialization: 'textDirection' is not a base or member
+     1>f:\[08-08-11]\sparrow\engine\context2d.hpp(3): fatal error C1083: Cannot open include file: 'SpriteSet.hpp': No such file or directory
+     1>Done Building Project "F:\[08-08-11]\sparrow\appgame\appgame.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.88

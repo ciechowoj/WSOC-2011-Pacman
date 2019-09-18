@@ -1,0 +1,24 @@
+﻿Build started 2011-06-22 20:14:07.
+     1>Project "D:\sparrow\editor\editor.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\editor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\sparrow\\ /I"C:\Dokumenty\c-sample\DevIL-SDK-x86-1.7.8\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Resource.cpp main.cpp
+         Resource.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wojciech\Desktop\editor\editor.exe" /NOLOGO /LIBPATH:D:\sparrow\Release /LIBPATH:"C:\Dokumenty\c-sample\DevIL-SDK-x86-1.7.8\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Wojciech\Desktop\editor\editor.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wojciech\Desktop\editor\editor.lib" /MACHINE:X86 Release\Resource.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         editor.vcxproj -> C:\Users\Wojciech\Desktop\editor\editor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Wojciech\Desktop\editor\editor.exe;#1" /manifest Release\editor.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\editor.unsuccessfulbuild".
+         Touching "Release\editor.lastbuildstate".
+     1>Done Building Project "D:\sparrow\editor\editor.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.56

@@ -1,0 +1,6 @@
+D:\sparrow\Debug\appgame.exe
+-fullscreen
+D:\sparrow\Debug\appgame.exe
+-fullscreen
+D:\sparrow\Debug\appgame.exe
+-fullscreen
